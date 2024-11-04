@@ -34,17 +34,18 @@ body {
 .grid .col-content {
     width: 100%;
     height: 100%;
-    background: red ;
+    background: red;
+    border-radius: 15px;
 }
 
 .grid .col {
-    width: 50%;    
+    width: 50%;
 }
 
 .menu {
     width: 100%;
     position: fixed;
-    background: black;    
+    background: black;
 }
 
 .menu ul {
@@ -62,7 +63,7 @@ body {
 .menu ul li a {
     display: block;
     padding: 20px;
-    color:white;
+    color: white;
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
@@ -72,7 +73,7 @@ body {
 }
 
 .full-page {
-    max-width: 100%;        
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 73px;
     height: 100vh;
@@ -107,5 +108,3 @@ body {
         width: 25%;
     }
 }
-
-
