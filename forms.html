@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>Form</p>
+        <p>
+            <label style="display: block;" for="name_id">Name: </label>
+            <input type="text" id="name_id" name="name" placeholder="My Name">
+        </p>
+        <p>
+            <label for="dev_id">Developper: </label>
+            <input type="checkbox" id="dev_id" name="dev" value="yes">
+        </p>
+
+        <p>
+            <label for="fem">Female</label>
+            <input type="radio" id="fem" name="genero" value="female"><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="genero" value="male"><br>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="genero" value="other"><br>
+        </p>
+        <p>
+            <label style="display: block;" for="date_id">Date: </label>
+            <input type="date" id="date_id" name="date">
+        </p>
+        <p>
+            <label style="display: block;" for="datetime_id">Datetime: </label>
+            <input type="datetime-local" id="datetime_id" name="datetime" value="2024-10-13T15:56">
+        </p>
+        <p>
+            <label style="display: block;" for="time_id">Time: </label>
+            <input type="time" id="time_id" name="time" value="15:56">
+        </p>
+        <p>
+            <label style="display: block;" for="color_id">Color: </label>
+            <input type="color" id="color_id" name="color" value="#F0000">
+        </p>
+        <p>
+            <label style="display: block;" for="email_id">Email: </label>
+            <input type="email" id="email_id" name="email" placeholder="email@email.com">
+        </p>
+        <p>
+            <label style="display: block;" for="password_id">Password: </label>
+            <input type="password" id="password_id" name="password" placeholder="Type your Passsword">
+        </p>
+        <p>
+            <label style="display: block;" for="file_id">File: </label>
+            <input type="file" id="file_id" name="file" accept=".png,.svg,image/*" multiple>
+        </p>
+        <p>
+            <label style="display: block;" for="number_id">Number: </label>
+            <input type="number" id="number_id" name="number" placeholder="input Number" min="10" max="50">
+        </p>
+        <p>
+            <label style="display: block;" for="range_id">Range: </label>
+            <input type="range" id="range_id" name="range" list="tickmarks" min="0" max="10" step="2">
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="2">
+                <option value="4">
+                <option value="6">
+                <option value="8">
+                <option value="10" label="100%">
+            </datalist>
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+</body>
+
+</html>
