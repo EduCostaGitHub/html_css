@@ -36,6 +36,7 @@ body {
     height: 100%;
     background: red;
     border-radius: 15px;
+    box-shadow: inset 5px 5px 5px blue, 5px 5px 5px rgba(0,0,0, 0.5)
 }
 
 .grid .col {
